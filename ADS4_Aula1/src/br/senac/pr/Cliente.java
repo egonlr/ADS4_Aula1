@@ -5,12 +5,10 @@ public class Cliente {
 	int anoNascimento;
 	String nome;
 	String email;
-	
-public Cliente(String cpf, int anoNascimento, String nome, String email) {
-		super();
-		this.cpf = cpf;
-		this.anoNascimento = anoNascimento;
-		this.nome = nome;
-		this.email = email;
-	}
+
+public String retornaCliente() {
+	// TODO Auto-generated method stub
+	return "[Nome: " + this.nome + ", CPF: " + this.cpf + " - Ano de Nascimento: " + this.anoNascimento + " - Email: " + this.email + "]";
+}
+
 }
